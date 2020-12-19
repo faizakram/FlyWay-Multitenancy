@@ -5,13 +5,15 @@ spring:
     enabled: false
 tenants:
   datasources:
-    vw:
+    first:
       jdbcUrl: jdbc:mysql://localhost:3306/app_db_001?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-      driverClassName: com.mysql.jdbc.Driver
       username: root
       password: root
-    bmw:
+    second:
       jdbcUrl: jdbc:mysql://localhost:3306/app_db_002?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: root
+    third:
+      jdbcUrl: jdbc:mysql://localhost:3306/app_db_003?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
       username: root
       password: root
