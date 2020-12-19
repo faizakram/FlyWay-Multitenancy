@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  flyway:
+    enabled: false
+tenants:
+  datasources:
+    vw:
+      jdbcUrl: jdbc:mysql://localhost:3306/app_db_001?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: root
+    bmw:
+      jdbcUrl: jdbc:mysql://localhost:3306/app_db_002?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: root
