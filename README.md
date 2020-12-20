@@ -2,7 +2,7 @@
 Spring Boot Multitenacy Project Example
 
 
-You just need to define your tenent here.
+You just need to define your tenent here and also create database first. 
 ```
 tenants:
   datasources:
