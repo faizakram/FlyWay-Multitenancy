@@ -20,4 +20,4 @@ tenants:
       password: root
 ```
 
-Post URL Example:- https://www.getpostman.com/collections/9982790f4dd30d460a97
+Postman URL Example:- https://www.getpostman.com/collections/9982790f4dd30d460a97
